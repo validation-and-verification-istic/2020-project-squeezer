@@ -100,7 +100,7 @@ To achieve this assignment you are required to complete the following tasks (no 
   - The test suite must be executed as part of the build process after every push to the repository and after every pull request.
   - Make the build fail if the statement coverage falls below a configured threshold.
 
-- Create an implement a fuzzing strategy to detect bugs:
+- Create and implement a fuzzing strategy to detect bugs:
   - Implement a fuzzing variant that helps finding bugs in the compression algorithms.
   - Configure the CI so that in regular scheduled intervals the algorithms are fuzzed for a given amount of time or until a bug is found.
   - Any bug found should be automatically reported to the developers with a new issue containing all the information.
